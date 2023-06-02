@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 мая 2023 г., 18:51:36
+    Author     : Administrator
+*/
+
+body, html {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url(../img/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  color: #FF0000;
+}
+
+form{
+     padding: 30px 60px;
+    background: white;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:20px;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    opacity: 0.5;
+}
+
+form.box {
+  background-color: #000;
+  color: #FF0000;
+  font-size:40px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #000;
+  color: #FF0000;
+  width: 50%;
+  padding: 8px;
+  border-color:#FF0000 ;
+  border-radius: 4px;
+ font-size:20px;
+}
+
+input[type="submit"].btn1 {
+  background-color: #FF0000;
+  color: #000; 
+    padding:10px 20px;
+    border-radius:10px;
+    padding:10px 20px;
+    font-size:18px;
+    border-color: black;
+    margin-top:20px;
+}
